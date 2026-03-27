@@ -78,37 +78,6 @@
 						}
 					}
 				]
-			},
-			{
-				"name": "Waitforsqltostart",
-				"type": "Wait",
-				"dependsOn": [
-					{
-						"activity": "copy datalake to sql",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					},
-					{
-						"activity": "Waiforsqltostop",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 1
-				}
-			},
-			{
-				"name": "Waiforsqltostop",
-				"type": "Wait",
-				"dependsOn": [],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 1
-				}
 			}
 		],
 		"parameters": {
