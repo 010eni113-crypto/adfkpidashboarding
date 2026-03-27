@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevjyoti"
+		},
+		"LS_sadevkpidashboardingnew_accountKey": {
+			"value": ""
+		},
+		"LS_sgkpidashboarding_accountKey": {
+			"value": ""
+		},
+		"LS_sgkpidashboardingnew_accountKey": {
+			"value": ""
+		},
+		"LS_sqlserverkpidashboarding_password": {
+			"value": ""
+		},
+		"LS_sadevkpidashboardingnew_properties_typeProperties_url": {
+			"value": "https://sadevkpidashboardingnew.dfs.core.windows.net/"
+		},
+		"LS_sgkpidashboarding_properties_typeProperties_url": {
+			"value": "https://sadevkpidashboardingnew.dfs.core.windows.net/"
+		},
+		"LS_sgkpidashboardingnew_properties_typeProperties_url": {
+			"value": "https://sadevkpidashboardingnew.dfs.core.windows.net/"
+		},
+		"LS_sqlserverkpidashboarding_properties_typeProperties_server": {
+			"value": "sqlserverkpidashboarding.database.windows.net"
+		},
+		"LS_sqlserverkpidashboarding_properties_typeProperties_database": {
+			"value": "sqlserverkpidashboarding"
+		},
+		"LS_sqlserverkpidashboarding_properties_typeProperties_userName": {
+			"value": "cloud"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
