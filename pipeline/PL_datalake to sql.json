@@ -80,7 +80,7 @@
 				]
 			},
 			{
-				"name": "Wait1",
+				"name": "Waitforsqltostart",
 				"type": "Wait",
 				"dependsOn": [
 					{
@@ -90,7 +90,7 @@
 						]
 					},
 					{
-						"activity": "Wait2",
+						"activity": "Waiforsqltostop",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -102,7 +102,7 @@
 				}
 			},
 			{
-				"name": "Wait2",
+				"name": "Waiforsqltostop",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
