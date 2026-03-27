@@ -1,0 +1,24 @@
+{
+	"name": "DS_sink_datalake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_sgkpidashboardingnew",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "folderlistrecursve",
+				"fileSystem": "test02"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
